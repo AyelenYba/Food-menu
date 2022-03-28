@@ -3,7 +3,7 @@ const menu = [
         id: 1,
         title: 'Muffins',
         category: 'Breakfast',
-        description: 'vanilla muffins',
+        description: 'Vanilla muffins',
         price: '$3.99',
         img: './images/breakfast-muffins.jpg'
     },
@@ -11,7 +11,7 @@ const menu = [
         id: 2,
         title: 'Cheeseburger',
         category: 'Lunch',
-        description: 'cheeseburger',
+        description: 'Cheeseburger',
         price: '$5.99',
         img: './images/cheeseburger.jpg'
     },
@@ -27,7 +27,7 @@ const menu = [
         id: 4,
         title: 'Noodle soup',
         category: 'Lunch',
-        description: 'noodle soup',
+        description: 'Noodle soup',
         price: '$3.99',
         img: './images/noodle-soup.jpg'
     },
@@ -35,7 +35,7 @@ const menu = [
         id: 5,
         title: 'Pancakes',
         category: 'Breakfast',
-        description: 'pancakes',
+        description: 'Pancakes',
         price: '$2.99',
         img: './images/breakfast-pancakes.jpg'
     },
@@ -43,7 +43,7 @@ const menu = [
         id: 6,
         title: 'Pizza',
         category: 'Lunch',
-        description: 'pizza',
+        description: 'Pizza',
         price: '$3.50',
         img: './images/pizza.jpg'
     },
@@ -51,7 +51,7 @@ const menu = [
         id: 7,
         title: 'Roasted turkey',
         category: 'Lunch',
-        description: 'roasted turkey',
+        description: 'Roasted turkey',
         price: '$5.99',
         img: './images/roasted-turkey.jpg'
     },
@@ -59,7 +59,7 @@ const menu = [
         id: 8,
         title: 'Tea',
         category: 'Drinks',
-        description: 'tea',
+        description: 'Tea',
         price: '$0.50',
         img: './images/tea.jpg'
     },
@@ -67,7 +67,7 @@ const menu = [
         id: 9,
         title: 'Waffles',
         category: 'Breakfast',
-        description: 'waffles with cream and jam',
+        description: 'Waffles with cream and jam',
         price: '$5.99',
         img: './images/waffles-with-cream-and-jam.jpg'
     }
