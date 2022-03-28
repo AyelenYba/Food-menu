@@ -1,0 +1,41 @@
+.btns-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 2em;
+    margin-bottom: 5em;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    color: rgb(110, 69, 85);
+    font: var(--font-text-categories);
+    border: 2px solid var(--btns-border-color);
+    background-color: rgb(245, 197, 223);
+    border-radius: 10px;
+    padding: 0.6em 1.3em;
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    background-color: rgb(252, 236, 245);
+    transform: scale(1.1);
+}
+
+.active {
+    background-color: rgb(252, 236, 245);
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+    .filter-btn {
+        font: var(--font-text-categories-768);
+    }
+    
+    .btns-container {
+        margin: 2em 0.5em;
+        gap: 1em;
+    }
+}
